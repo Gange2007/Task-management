@@ -9,6 +9,7 @@ dotenv.config({ path: path.resolve(__dirname, '..', '.env') });
 const User = require('../src/models/User');
 
 test('registering a user hashes the password and stores the account', async () => {
+  
   await mongoose.connect(process.env.MONGODB_URI);
 
   try {
