@@ -170,3 +170,12 @@ cd backend
 ### Database → MongoDB Atlas
 1. Create a free cluster at [mongodb.com/atlas](https://mongodb.com/atlas)
 2. Get connection string and set `MONGODB_URI` in backend env
+## Live Demo
+
+## Live Demo
+
+Frontend:
+https://task-management-x35n-cpsccts54-gange2007s-projects.vercel.app
+
+Backend API:
+https://task-management-1-li5y.onrender.com/api/health
